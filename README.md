@@ -13,7 +13,7 @@ That said, this [AGENTS.md](/AGENTS.md) template is not intended for fully vibe-
 - Gross misunderstandings of user intent and project context.
 - They use emojis, ugh.
 - They create unnecessary files (Claude, i'm looking at you) and modify important ones without permission.
-- Often fall into a credit-burn loop when tests or builds fail _(run tests > fails > AI: Oh! I see, this is wrong let me fix that > run tests > fails > AI: This keeps failing, let this is the real problem > run tests > fails > AI: Let's take a different approach > run tests > fails > AI: I will omit tests because is a false positive [lie] > app broken)_.
+- Often fall into a credit-burn loop when tests or builds fail _(run tests > fails > AI: Oh! I see, this is wrong let me fix that > run tests > fails > AI: This keeps failing, this is the real problem > run tests > fails > AI: Let's take a different approach > run tests > fails > AI: I will omit tests because is a false positive [lie] > app broken)_.
 - They don't apply good criteria, if an user isn't right about something, they should be warned.
 - Often waste tokens on boilerplate or unnecessary abstractions or //commenting code.
 
